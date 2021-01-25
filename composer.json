@@ -1,11 +1,18 @@
 {
-    "name": "composer-initialization",
-    "type": "library",
-    "description": "Logging for PHP 5.3",
-    "keywords": ["log","logging"],
+    "name": "javier/composer",
+    "description": "One interesting project",
     "autoload": {
         "psr-4": {
             "MyApp\\": "src/"
         }
-    }
+    },
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Javier Quiroga Almeida",
+            "email": "quiroga218@gmail.com"
+        }
+    ],
+    "require": {}
 }
