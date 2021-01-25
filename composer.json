@@ -1,4 +1,8 @@
 {
+    "name": "composer-project",
+    "type": "library",
+    "description": "Logging for PHP 5.3",
+    "keywords": ["log","logging"],
     "autoload": {
         "psr-4": {
             "MyApp\\": "src/"
